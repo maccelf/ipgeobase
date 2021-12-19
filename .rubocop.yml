@@ -11,3 +11,11 @@ Style/StringLiteralsInInterpolation:
 
 Layout/LineLength:
   Max: 120
+
+Metrics/MethodLength:
+  Exclude:
+    - test/ipgeobase_test.rb
+
+Naming/MethodName:
+  Exclude:
+     - test/ipgeobase_test.rb
